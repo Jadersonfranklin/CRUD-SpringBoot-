@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Metadados -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="formulario.css"
+      media="screen"
+    />
+
+    <!-- Título da página (aparece na aba) -->
+    <title>Cadastro</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
+    <div>
+      <h1 id="titulo">1 Aninho do Arthur</h1>
+      <p id="subtitulo">Confirme aqui sua presença</p>
+      <br />
+    </div>
+
+    <!-- Início do formulário -->
+    <form>
+      <fieldset class="grupo">
+        <div class="campo">
+          <label for="nome"><strong>Nome</strong></label>
+          <input type="text" name="nome" id="nome" required />
+        </div>
+      </fieldset>
+
+      <fieldset class="grupo">
+        <!-- Campo de tecnologias para escolha de 1 ou mais opções para marcar (checkbox) e css de classe "campo" -->
+        <div id="check">
+          <label><strong>É menor de 6 anos?</strong></label>
+          <input
+            type="checkbox"
+            id="tecnologia1"
+            name="tecnologia1"
+            value="HTML"
+            required
+          />
+          <label for="tecnologia1"> Sim</label>
+          <input
+            type="checkbox"
+            id="tecnologia2"
+            name="tecnologia2"
+            value="CSS"
+          />
+          <label for="tecnologia2"> Não</label>
+        </div>
+      </fieldset>
+
+      <!-- Caixa de texto -->
+      <div class="campo">
+        <br />
+        <label for="experiencia"
+          ><strong>Deixe uma mensagem para o Arthur: </strong></label
+        >
+        <textarea
+          rows="6"
+          style="width: 26em"
+          id="experiencia"
+          name="experiencia"
+        ></textarea>
+      </div>
+
+      <!-- Botão para enviar o formulário -->
+      <button
+        class="botao"
+        type="submit"
+        onsubmit=""
+        onclick="cadastraConvidado"
+      >
+        Concluído
+      </button>
+    </form>
+  </body>
+</html>
