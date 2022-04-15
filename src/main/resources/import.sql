@@ -1,0 +1,14 @@
+INSERT INTO tb_pessoa(nome) VALUES ('Maria');
+INSERT INTO tb_pessoa(nome) VALUES ('Bob');
+INSERT INTO tb_pessoa(nome) VALUES ('Alex');
+INSERT INTO tb_pessoa(nome) VALUES ('João');
+INSERT INTO tb_pessoa(nome) VALUES ('Eder');
+INSERT INTO tb_pessoa(nome) VALUES ('Ana');
+INSERT INTO tb_pessoa(nome) VALUES ('Carlos');
+INSERT INTO tb_pessoa(nome) VALUES ('Arthur');
+INSERT INTO tb_pessoa(nome) VALUES ('John');
+INSERT INTO tb_pessoa(nome) VALUES ('Julia');
+INSERT INTO tb_pessoa(nome) VALUES ('Joaquim');
+INSERT INTO tb_pessoa(nome) VALUES ('Leonardo');
+INSERT INTO tb_pessoa(nome) VALUES ('Leandro');
+INSERT INTO tb_pessoa(nome) VALUES ('Milena');
